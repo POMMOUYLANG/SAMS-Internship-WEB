@@ -1,0 +1,6 @@
+service:
+   uralone:
+      image: kettip/uralone-primevue:latest
+      container_name: uralone_cp
+      ports:
+        - "8888:8088"
